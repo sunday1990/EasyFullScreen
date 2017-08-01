@@ -20,10 +20,10 @@
 		16CA42F41F30B708005CEF95 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42F31F30B708005CEF95 /* TestViewController1.m */; };
 		16CA42F71F30B712005CEF95 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42F61F30B712005CEF95 /* TestViewController2.m */; };
 		16CA42FA1F30B820005CEF95 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42F91F30B820005CEF95 /* BaseViewController.m */; };
-		16CA43091F30C1DC005CEF95 /* NavAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43011F30C1DC005CEF95 /* NavAnimationTransition.m */; };
-		16CA430A1F30C1DC005CEF95 /* NavDefaultAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43031F30C1DC005CEF95 /* NavDefaultAnimator.m */; };
-		16CA430B1F30C1DC005CEF95 /* NavDefaultPercentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43051F30C1DC005CEF95 /* NavDefaultPercentAnimator.m */; };
 		16CA430C1F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43081F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m */; };
+		16CA43241F30C6D2005CEF95 /* NavDefaultAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA431D1F30C6D2005CEF95 /* NavDefaultAnimator.m */; };
+		16CA43251F30C6D2005CEF95 /* NavDefaultPercentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA431F1F30C6D2005CEF95 /* NavDefaultPercentAnimator.m */; };
+		16CA43261F30C6D2005CEF95 /* NavAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43231F30C6D2005CEF95 /* NavAnimationTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,14 +70,14 @@
 		16CA42F61F30B712005CEF95 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
 		16CA42F81F30B820005CEF95 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		16CA42F91F30B820005CEF95 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		16CA43001F30C1DC005CEF95 /* NavAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAnimationTransition.h; sourceTree = "<group>"; };
-		16CA43011F30C1DC005CEF95 /* NavAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAnimationTransition.m; sourceTree = "<group>"; };
-		16CA43021F30C1DC005CEF95 /* NavDefaultAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDefaultAnimator.h; sourceTree = "<group>"; };
-		16CA43031F30C1DC005CEF95 /* NavDefaultAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDefaultAnimator.m; sourceTree = "<group>"; };
-		16CA43041F30C1DC005CEF95 /* NavDefaultPercentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDefaultPercentAnimator.h; sourceTree = "<group>"; };
-		16CA43051F30C1DC005CEF95 /* NavDefaultPercentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDefaultPercentAnimator.m; sourceTree = "<group>"; };
 		16CA43071F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+EasyFullScreen.h"; sourceTree = "<group>"; };
 		16CA43081F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+EasyFullScreen.m"; sourceTree = "<group>"; };
+		16CA431C1F30C6D2005CEF95 /* NavDefaultAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDefaultAnimator.h; sourceTree = "<group>"; };
+		16CA431D1F30C6D2005CEF95 /* NavDefaultAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDefaultAnimator.m; sourceTree = "<group>"; };
+		16CA431E1F30C6D2005CEF95 /* NavDefaultPercentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDefaultPercentAnimator.h; sourceTree = "<group>"; };
+		16CA431F1F30C6D2005CEF95 /* NavDefaultPercentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDefaultPercentAnimator.m; sourceTree = "<group>"; };
+		16CA43221F30C6D2005CEF95 /* NavAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAnimationTransition.h; sourceTree = "<group>"; };
+		16CA43231F30C6D2005CEF95 /* NavAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAnimationTransition.m; sourceTree = "<group>"; };
 		A5C39C24381E865D5DB63552 /* Pods-EasyFullScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFullScreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyFullScreen/Pods-EasyFullScreen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,23 +191,11 @@
 		16CA42FE1F30C1DC005CEF95 /* EasyFullScreen */ = {
 			isa = PBXGroup;
 			children = (
-				16CA42FF1F30C1DC005CEF95 /* AnimatorDefault */,
+				16CA431A1F30C6D2005CEF95 /* Animators */,
+				16CA43211F30C6D2005CEF95 /* Transition */,
 				16CA43061F30C1DC005CEF95 /* Category */,
 			);
 			path = EasyFullScreen;
-			sourceTree = "<group>";
-		};
-		16CA42FF1F30C1DC005CEF95 /* AnimatorDefault */ = {
-			isa = PBXGroup;
-			children = (
-				16CA43001F30C1DC005CEF95 /* NavAnimationTransition.h */,
-				16CA43011F30C1DC005CEF95 /* NavAnimationTransition.m */,
-				16CA43021F30C1DC005CEF95 /* NavDefaultAnimator.h */,
-				16CA43031F30C1DC005CEF95 /* NavDefaultAnimator.m */,
-				16CA43041F30C1DC005CEF95 /* NavDefaultPercentAnimator.h */,
-				16CA43051F30C1DC005CEF95 /* NavDefaultPercentAnimator.m */,
-			);
-			path = AnimatorDefault;
 			sourceTree = "<group>";
 		};
 		16CA43061F30C1DC005CEF95 /* Category */ = {
@@ -217,6 +205,42 @@
 				16CA43081F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		16CA431A1F30C6D2005CEF95 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				16CA431B1F30C6D2005CEF95 /* Default */,
+				16CA43201F30C6D2005CEF95 /* Others */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		16CA431B1F30C6D2005CEF95 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				16CA431C1F30C6D2005CEF95 /* NavDefaultAnimator.h */,
+				16CA431D1F30C6D2005CEF95 /* NavDefaultAnimator.m */,
+				16CA431E1F30C6D2005CEF95 /* NavDefaultPercentAnimator.h */,
+				16CA431F1F30C6D2005CEF95 /* NavDefaultPercentAnimator.m */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		16CA43201F30C6D2005CEF95 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		16CA43211F30C6D2005CEF95 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				16CA43221F30C6D2005CEF95 /* NavAnimationTransition.h */,
+				16CA43231F30C6D2005CEF95 /* NavAnimationTransition.m */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 		84070A650F2519D732F3979D /* Frameworks */ = {
@@ -423,14 +447,14 @@
 			files = (
 				16CA42F71F30B712005CEF95 /* TestViewController2.m in Sources */,
 				16CA42FA1F30B820005CEF95 /* BaseViewController.m in Sources */,
+				16CA43261F30C6D2005CEF95 /* NavAnimationTransition.m in Sources */,
 				16CA42AB1F30AC13005CEF95 /* ViewController.m in Sources */,
-				16CA43091F30C1DC005CEF95 /* NavAnimationTransition.m in Sources */,
 				16CA42A81F30AC13005CEF95 /* AppDelegate.m in Sources */,
 				16CA42F41F30B708005CEF95 /* TestViewController1.m in Sources */,
 				16CA430C1F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m in Sources */,
-				16CA430B1F30C1DC005CEF95 /* NavDefaultPercentAnimator.m in Sources */,
+				16CA43251F30C6D2005CEF95 /* NavDefaultPercentAnimator.m in Sources */,
 				16CA42A51F30AC13005CEF95 /* main.m in Sources */,
-				16CA430A1F30C1DC005CEF95 /* NavDefaultAnimator.m in Sources */,
+				16CA43241F30C6D2005CEF95 /* NavDefaultAnimator.m in Sources */,
 				16CA42F11F30B6FF005CEF95 /* TestViewController0.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
