@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073FAC9E97FC04F921A8F539 /* libPods-EasyFullScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DD6A7003F972E557BB75A9 /* libPods-EasyFullScreen.a */; };
+		16CA42A51F30AC13005CEF95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42A41F30AC13005CEF95 /* main.m */; };
+		16CA42A81F30AC13005CEF95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42A71F30AC13005CEF95 /* AppDelegate.m */; };
+		16CA42AB1F30AC13005CEF95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42AA1F30AC13005CEF95 /* ViewController.m */; };
+		16CA42AE1F30AC13005CEF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CA42AC1F30AC13005CEF95 /* Main.storyboard */; };
+		16CA42B01F30AC13005CEF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CA42AF1F30AC13005CEF95 /* Assets.xcassets */; };
+		16CA42B31F30AC13005CEF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CA42B11F30AC13005CEF95 /* LaunchScreen.storyboard */; };
+		16CA42BE1F30AC13005CEF95 /* EasyFullScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42BD1F30AC13005CEF95 /* EasyFullScreenTests.m */; };
+		16CA42C91F30AC13005CEF95 /* EasyFullScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42C81F30AC13005CEF95 /* EasyFullScreenUITests.m */; };
+		16CA42F11F30B6FF005CEF95 /* TestViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42F01F30B6FF005CEF95 /* TestViewController0.m */; };
+		16CA42F41F30B708005CEF95 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42F31F30B708005CEF95 /* TestViewController1.m */; };
+		16CA42F71F30B712005CEF95 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42F61F30B712005CEF95 /* TestViewController2.m */; };
+		16CA42FA1F30B820005CEF95 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA42F91F30B820005CEF95 /* BaseViewController.m */; };
+		16CA43091F30C1DC005CEF95 /* NavAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43011F30C1DC005CEF95 /* NavAnimationTransition.m */; };
+		16CA430A1F30C1DC005CEF95 /* NavDefaultAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43031F30C1DC005CEF95 /* NavDefaultAnimator.m */; };
+		16CA430B1F30C1DC005CEF95 /* NavDefaultPercentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43051F30C1DC005CEF95 /* NavDefaultPercentAnimator.m */; };
+		16CA430C1F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA43081F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16CA42BA1F30AC13005CEF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16CA42981F30AC13005CEF95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CA429F1F30AC13005CEF95;
+			remoteInfo = EasyFullScreen;
+		};
+		16CA42C51F30AC13005CEF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16CA42981F30AC13005CEF95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CA429F1F30AC13005CEF95;
+			remoteInfo = EasyFullScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DD6A7003F972E557BB75A9 /* libPods-EasyFullScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyFullScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B415B6FDAB332774987B87C /* Pods-EasyFullScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFullScreen.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyFullScreen/Pods-EasyFullScreen.release.xcconfig"; sourceTree = "<group>"; };
+		16CA42A01F30AC13005CEF95 /* EasyFullScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFullScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CA42A41F30AC13005CEF95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16CA42A61F30AC13005CEF95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16CA42A71F30AC13005CEF95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16CA42A91F30AC13005CEF95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16CA42AA1F30AC13005CEF95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16CA42AD1F30AC13005CEF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16CA42AF1F30AC13005CEF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16CA42B21F30AC13005CEF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16CA42B41F30AC13005CEF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CA42B91F30AC13005CEF95 /* EasyFullScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyFullScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CA42BD1F30AC13005CEF95 /* EasyFullScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFullScreenTests.m; sourceTree = "<group>"; };
+		16CA42BF1F30AC13005CEF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CA42C41F30AC13005CEF95 /* EasyFullScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyFullScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CA42C81F30AC13005CEF95 /* EasyFullScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFullScreenUITests.m; sourceTree = "<group>"; };
+		16CA42CA1F30AC13005CEF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CA42EF1F30B6FF005CEF95 /* TestViewController0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController0.h; sourceTree = "<group>"; };
+		16CA42F01F30B6FF005CEF95 /* TestViewController0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController0.m; sourceTree = "<group>"; };
+		16CA42F21F30B708005CEF95 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		16CA42F31F30B708005CEF95 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		16CA42F51F30B712005CEF95 /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		16CA42F61F30B712005CEF95 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
+		16CA42F81F30B820005CEF95 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		16CA42F91F30B820005CEF95 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		16CA43001F30C1DC005CEF95 /* NavAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAnimationTransition.h; sourceTree = "<group>"; };
+		16CA43011F30C1DC005CEF95 /* NavAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAnimationTransition.m; sourceTree = "<group>"; };
+		16CA43021F30C1DC005CEF95 /* NavDefaultAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDefaultAnimator.h; sourceTree = "<group>"; };
+		16CA43031F30C1DC005CEF95 /* NavDefaultAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDefaultAnimator.m; sourceTree = "<group>"; };
+		16CA43041F30C1DC005CEF95 /* NavDefaultPercentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDefaultPercentAnimator.h; sourceTree = "<group>"; };
+		16CA43051F30C1DC005CEF95 /* NavDefaultPercentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDefaultPercentAnimator.m; sourceTree = "<group>"; };
+		16CA43071F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+EasyFullScreen.h"; sourceTree = "<group>"; };
+		16CA43081F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+EasyFullScreen.m"; sourceTree = "<group>"; };
+		A5C39C24381E865D5DB63552 /* Pods-EasyFullScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFullScreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyFullScreen/Pods-EasyFullScreen.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CA429D1F30AC13005CEF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073FAC9E97FC04F921A8F539 /* libPods-EasyFullScreen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CA42B61F30AC13005CEF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CA42C11F30AC13005CEF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CA42971F30AC13005CEF95 = {
+			isa = PBXGroup;
+			children = (
+				16CA42A21F30AC13005CEF95 /* EasyFullScreen */,
+				16CA42BC1F30AC13005CEF95 /* EasyFullScreenTests */,
+				16CA42C71F30AC13005CEF95 /* EasyFullScreenUITests */,
+				16CA42A11F30AC13005CEF95 /* Products */,
+				E227F2DB6C5A16E957E73F38 /* Pods */,
+				84070A650F2519D732F3979D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16CA42A11F30AC13005CEF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16CA42A01F30AC13005CEF95 /* EasyFullScreen.app */,
+				16CA42B91F30AC13005CEF95 /* EasyFullScreenTests.xctest */,
+				16CA42C41F30AC13005CEF95 /* EasyFullScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16CA42A21F30AC13005CEF95 /* EasyFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				16CA42FE1F30C1DC005CEF95 /* EasyFullScreen */,
+				16CA42EE1F30B6E9005CEF95 /* Test */,
+				16CA42A61F30AC13005CEF95 /* AppDelegate.h */,
+				16CA42A71F30AC13005CEF95 /* AppDelegate.m */,
+				16CA42A91F30AC13005CEF95 /* ViewController.h */,
+				16CA42AA1F30AC13005CEF95 /* ViewController.m */,
+				16CA42AC1F30AC13005CEF95 /* Main.storyboard */,
+				16CA42AF1F30AC13005CEF95 /* Assets.xcassets */,
+				16CA42B11F30AC13005CEF95 /* LaunchScreen.storyboard */,
+				16CA42B41F30AC13005CEF95 /* Info.plist */,
+				16CA42A31F30AC13005CEF95 /* Supporting Files */,
+			);
+			path = EasyFullScreen;
+			sourceTree = "<group>";
+		};
+		16CA42A31F30AC13005CEF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16CA42A41F30AC13005CEF95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16CA42BC1F30AC13005CEF95 /* EasyFullScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				16CA42BD1F30AC13005CEF95 /* EasyFullScreenTests.m */,
+				16CA42BF1F30AC13005CEF95 /* Info.plist */,
+			);
+			path = EasyFullScreenTests;
+			sourceTree = "<group>";
+		};
+		16CA42C71F30AC13005CEF95 /* EasyFullScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16CA42C81F30AC13005CEF95 /* EasyFullScreenUITests.m */,
+				16CA42CA1F30AC13005CEF95 /* Info.plist */,
+			);
+			path = EasyFullScreenUITests;
+			sourceTree = "<group>";
+		};
+		16CA42EE1F30B6E9005CEF95 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				16CA42F81F30B820005CEF95 /* BaseViewController.h */,
+				16CA42F91F30B820005CEF95 /* BaseViewController.m */,
+				16CA42EF1F30B6FF005CEF95 /* TestViewController0.h */,
+				16CA42F01F30B6FF005CEF95 /* TestViewController0.m */,
+				16CA42F21F30B708005CEF95 /* TestViewController1.h */,
+				16CA42F31F30B708005CEF95 /* TestViewController1.m */,
+				16CA42F51F30B712005CEF95 /* TestViewController2.h */,
+				16CA42F61F30B712005CEF95 /* TestViewController2.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		16CA42FE1F30C1DC005CEF95 /* EasyFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				16CA42FF1F30C1DC005CEF95 /* AnimatorDefault */,
+				16CA43061F30C1DC005CEF95 /* Category */,
+			);
+			path = EasyFullScreen;
+			sourceTree = "<group>";
+		};
+		16CA42FF1F30C1DC005CEF95 /* AnimatorDefault */ = {
+			isa = PBXGroup;
+			children = (
+				16CA43001F30C1DC005CEF95 /* NavAnimationTransition.h */,
+				16CA43011F30C1DC005CEF95 /* NavAnimationTransition.m */,
+				16CA43021F30C1DC005CEF95 /* NavDefaultAnimator.h */,
+				16CA43031F30C1DC005CEF95 /* NavDefaultAnimator.m */,
+				16CA43041F30C1DC005CEF95 /* NavDefaultPercentAnimator.h */,
+				16CA43051F30C1DC005CEF95 /* NavDefaultPercentAnimator.m */,
+			);
+			path = AnimatorDefault;
+			sourceTree = "<group>";
+		};
+		16CA43061F30C1DC005CEF95 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				16CA43071F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.h */,
+				16CA43081F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		84070A650F2519D732F3979D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04DD6A7003F972E557BB75A9 /* libPods-EasyFullScreen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E227F2DB6C5A16E957E73F38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C39C24381E865D5DB63552 /* Pods-EasyFullScreen.debug.xcconfig */,
+				0B415B6FDAB332774987B87C /* Pods-EasyFullScreen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16CA429F1F30AC13005CEF95 /* EasyFullScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CA42CD1F30AC13005CEF95 /* Build configuration list for PBXNativeTarget "EasyFullScreen" */;
+			buildPhases = (
+				6222C9ED994960D312D7CFCD /* [CP] Check Pods Manifest.lock */,
+				16CA429C1F30AC13005CEF95 /* Sources */,
+				16CA429D1F30AC13005CEF95 /* Frameworks */,
+				16CA429E1F30AC13005CEF95 /* Resources */,
+				483AD56F188E282D81CACAFE /* [CP] Embed Pods Frameworks */,
+				5E75E625767666B32D5FEC2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyFullScreen;
+			productName = EasyFullScreen;
+			productReference = 16CA42A01F30AC13005CEF95 /* EasyFullScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16CA42B81F30AC13005CEF95 /* EasyFullScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CA42D01F30AC13005CEF95 /* Build configuration list for PBXNativeTarget "EasyFullScreenTests" */;
+			buildPhases = (
+				16CA42B51F30AC13005CEF95 /* Sources */,
+				16CA42B61F30AC13005CEF95 /* Frameworks */,
+				16CA42B71F30AC13005CEF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16CA42BB1F30AC13005CEF95 /* PBXTargetDependency */,
+			);
+			name = EasyFullScreenTests;
+			productName = EasyFullScreenTests;
+			productReference = 16CA42B91F30AC13005CEF95 /* EasyFullScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16CA42C31F30AC13005CEF95 /* EasyFullScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CA42D31F30AC13005CEF95 /* Build configuration list for PBXNativeTarget "EasyFullScreenUITests" */;
+			buildPhases = (
+				16CA42C01F30AC13005CEF95 /* Sources */,
+				16CA42C11F30AC13005CEF95 /* Frameworks */,
+				16CA42C21F30AC13005CEF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16CA42C61F30AC13005CEF95 /* PBXTargetDependency */,
+			);
+			name = EasyFullScreenUITests;
+			productName = EasyFullScreenUITests;
+			productReference = 16CA42C41F30AC13005CEF95 /* EasyFullScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16CA42981F30AC13005CEF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ccSunday;
+				TargetAttributes = {
+					16CA429F1F30AC13005CEF95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ5NTG5YWS;
+						ProvisioningStyle = Automatic;
+					};
+					16CA42B81F30AC13005CEF95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16CA429F1F30AC13005CEF95;
+					};
+					16CA42C31F30AC13005CEF95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16CA429F1F30AC13005CEF95;
+					};
+				};
+			};
+			buildConfigurationList = 16CA429B1F30AC13005CEF95 /* Build configuration list for PBXProject "EasyFullScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16CA42971F30AC13005CEF95;
+			productRefGroup = 16CA42A11F30AC13005CEF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CA429F1F30AC13005CEF95 /* EasyFullScreen */,
+				16CA42B81F30AC13005CEF95 /* EasyFullScreenTests */,
+				16CA42C31F30AC13005CEF95 /* EasyFullScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16CA429E1F30AC13005CEF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CA42B31F30AC13005CEF95 /* LaunchScreen.storyboard in Resources */,
+				16CA42B01F30AC13005CEF95 /* Assets.xcassets in Resources */,
+				16CA42AE1F30AC13005CEF95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CA42B71F30AC13005CEF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CA42C21F30AC13005CEF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		483AD56F188E282D81CACAFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyFullScreen/Pods-EasyFullScreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E75E625767666B32D5FEC2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyFullScreen/Pods-EasyFullScreen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6222C9ED994960D312D7CFCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CA429C1F30AC13005CEF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CA42F71F30B712005CEF95 /* TestViewController2.m in Sources */,
+				16CA42FA1F30B820005CEF95 /* BaseViewController.m in Sources */,
+				16CA42AB1F30AC13005CEF95 /* ViewController.m in Sources */,
+				16CA43091F30C1DC005CEF95 /* NavAnimationTransition.m in Sources */,
+				16CA42A81F30AC13005CEF95 /* AppDelegate.m in Sources */,
+				16CA42F41F30B708005CEF95 /* TestViewController1.m in Sources */,
+				16CA430C1F30C1DC005CEF95 /* UINavigationController+EasyFullScreen.m in Sources */,
+				16CA430B1F30C1DC005CEF95 /* NavDefaultPercentAnimator.m in Sources */,
+				16CA42A51F30AC13005CEF95 /* main.m in Sources */,
+				16CA430A1F30C1DC005CEF95 /* NavDefaultAnimator.m in Sources */,
+				16CA42F11F30B6FF005CEF95 /* TestViewController0.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CA42B51F30AC13005CEF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CA42BE1F30AC13005CEF95 /* EasyFullScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CA42C01F30AC13005CEF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CA42C91F30AC13005CEF95 /* EasyFullScreenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16CA42BB1F30AC13005CEF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16CA429F1F30AC13005CEF95 /* EasyFullScreen */;
+			targetProxy = 16CA42BA1F30AC13005CEF95 /* PBXContainerItemProxy */;
+		};
+		16CA42C61F30AC13005CEF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16CA429F1F30AC13005CEF95 /* EasyFullScreen */;
+			targetProxy = 16CA42C51F30AC13005CEF95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16CA42AC1F30AC13005CEF95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CA42AD1F30AC13005CEF95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16CA42B11F30AC13005CEF95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CA42B21F30AC13005CEF95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16CA42CB1F30AC13005CEF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16CA42CC1F30AC13005CEF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16CA42CE1F30AC13005CEF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C39C24381E865D5DB63552 /* Pods-EasyFullScreen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ5NTG5YWS;
+				INFOPLIST_FILE = EasyFullScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.SpaceHomeManager.EasyFullScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16CA42CF1F30AC13005CEF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B415B6FDAB332774987B87C /* Pods-EasyFullScreen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ5NTG5YWS;
+				INFOPLIST_FILE = EasyFullScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.SpaceHomeManager.EasyFullScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16CA42D11F30AC13005CEF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyFullScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.SpaceHomeManager.EasyFullScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyFullScreen.app/EasyFullScreen";
+			};
+			name = Debug;
+		};
+		16CA42D21F30AC13005CEF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyFullScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.SpaceHomeManager.EasyFullScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyFullScreen.app/EasyFullScreen";
+			};
+			name = Release;
+		};
+		16CA42D41F30AC13005CEF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyFullScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.SpaceHomeManager.EasyFullScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyFullScreen;
+			};
+			name = Debug;
+		};
+		16CA42D51F30AC13005CEF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyFullScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.SpaceHomeManager.EasyFullScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyFullScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16CA429B1F30AC13005CEF95 /* Build configuration list for PBXProject "EasyFullScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CA42CB1F30AC13005CEF95 /* Debug */,
+				16CA42CC1F30AC13005CEF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CA42CD1F30AC13005CEF95 /* Build configuration list for PBXNativeTarget "EasyFullScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CA42CE1F30AC13005CEF95 /* Debug */,
+				16CA42CF1F30AC13005CEF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CA42D01F30AC13005CEF95 /* Build configuration list for PBXNativeTarget "EasyFullScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CA42D11F30AC13005CEF95 /* Debug */,
+				16CA42D21F30AC13005CEF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CA42D31F30AC13005CEF95 /* Build configuration list for PBXNativeTarget "EasyFullScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CA42D41F30AC13005CEF95 /* Debug */,
+				16CA42D51F30AC13005CEF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16CA42981F30AC13005CEF95 /* Project object */;
+}

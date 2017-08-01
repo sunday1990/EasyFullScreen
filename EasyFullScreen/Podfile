@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target "EasyFullScreen" do
+
+platform:ios, ‘8.0’
+
+end
+
+
+
+
+
+
+
+
+    
+
