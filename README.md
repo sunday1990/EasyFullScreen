@@ -7,3 +7,7 @@
  ```
  [self.navigationController pushViewController:test1VC animated:YES animationStrategy:NavAnimationTransitionStrategyDefault];
  ```
+如何制作自己的转场策略：
+* 重写`- (void)easyFullScreenInteractiveTransitionRecognizerAction:(UIPanGestureRecognizer *)gestureRecognizer;`方法
+* 制作自己的animators，自己控制进度，最后放入EasyFullScreen/Animators/Others即可。
+
